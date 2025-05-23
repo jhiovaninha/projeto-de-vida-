@@ -1,2 +1,66 @@
 @import 
-URL('HTTPS;GOOGLEAPIS.COM/CSS2?family+Chakra+petch:wght@400;700&
+URL('HTTPS;GOOGLEAPIS.COM/CSS2?family+Chakra+petch:wght@400;700& display=swap')
+:root{
+  --cor-de-fundo:#1 E1E1E
+  --verde:#6FFF57
+--branco:#FFFFFF
+--botao-ativo:#3A375E,
+--botao-inativo:rgba(58,55,94,0.5)
+texto-fundo:rgba(58,55,94,0.3)
+}
+body{
+  background-color:var(--cor-de-fundo)
+  color:var(--branco);
+  font-family:'Chakra petch' sans-seri;
+}
+conteudo-principal{
+  display:flex;
+  justify-content:center;
+  align--items:center;
+  max-width:1200px;
+  widht:100%;
+  margin:0auto;
+}
+titulo -principal{
+  tex-align:left;
+  widht:100%;
+  font-sie:32px;
+}
+titulo-principalspaan{
+  color:var(--verde);
+}
+botao{
+  font-family:Chakra prech',sans-serif;
+  background-color:var(--botao-inativo)
+  color:var(--branco);
+  diplay:flex;
+  justify:-content:center;
+  padding:1em
+  font-sie:18px;
+  align-item:center;
+  widht:100%
+  border-botton:4px solid var(--botao-ativo)
+  border-left:2px solid var (--batao ativo);
+  border-right:2px solid var (--botaoativo);
+  border-top:none;
+}
+botao:first-child{
+  boeder-radius:40px 40 px 0 0;
+}
+botoes{
+  display:block;
+}
+ativo{bachground-color:var(--botao ativo);
+      border-botton:4px solid var (--verde)
+     }
+@media screenand (min-width:768pxpx)}
+botoes{
+  display:flex;
+}
+BOTAO:LAST-child{
+  border-radius:0 40px 0 0;
+}
+botao:last-child{
+  borer-radius:0 40px0 );
+}
+}
